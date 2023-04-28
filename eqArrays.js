@@ -1,4 +1,4 @@
-// Assert two values are equal
+// Assertion: check two primitive values are equal
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
@@ -7,7 +7,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// Check if two arrays are equal
+// Assertion: check two arrays are equal
 const eqArrays = function(array1, array2) {
   // The two arrays have the same length
   if(array1.length === array2.length) {
