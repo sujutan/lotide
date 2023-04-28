@@ -1,5 +1,4 @@
-// FUNCTION IMPLEMENTATION
-// Assert the value is correct
+// Assertion: check two primitive values are equal
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
