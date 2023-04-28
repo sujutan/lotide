@@ -7,7 +7,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// Assertion: check two arrays are equal
+// Check two arrays are equal
 const eqArrays = function(array1, array2) {
   // The two arrays have the same length
   if(array1.length === array2.length) {
@@ -26,7 +26,7 @@ const eqArrays = function(array1, array2) {
   }
 }
 
-// Assertion: check two objects are equal
+// Check two objects are equal
 // Returns true if both objects have identical keys with identical values.
 // Otherwise you get back a big fat false!
 const eqObjects = function(object1, object2) {
